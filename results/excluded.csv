@@ -1,0 +1,9 @@
+timestamp,participant_id,condition,study_id,session_id,browser_name,browser_version,os,failed_attention_check,reloaded
+
+2025-10-21T21:33:25+0000,nselqat,bar,test_study_id,test_session_id,Firefox,144.0,Windows,0,1
+2025-10-22T18:38:46+0000,uyiopmj,pie,test_study_id,test_session_id,Firefox,144.0,Windows,0,1
+2025-10-28T00:40:16+0000,bcrsgka,pie,test_study_id,test_session_id,Firefox,144.0,Windows,0,1
+2025-10-28T00:40:46+0000,gvtyiks,bar,test_study_id,test_session_id,Firefox,144.0,Windows,0,1
+2025-10-28T00:41:26+0000,htspbvr,bar,test_study_id,test_session_id,Firefox,144.0,Windows,0,1
+2025-10-28T00:45:28+0000,wcjkmzd,pie,test_study_id,test_session_id,Firefox,144.0,Windows,0,1
+2025-10-28T00:52:14+0000,lhqnvrg,pie,test_study_id,test_session_id,Firefox,144.0,Windows,0,1
