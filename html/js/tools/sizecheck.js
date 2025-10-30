@@ -1,21 +1,32 @@
+// --- Force clear cookies/localStorage once (Option 2) ---
+if (!localStorage.getItem('cookiesCleared')) {
+    // Clear cookies
+    document.cookie.split(";").forEach(c => {
+        document.cookie = c
+            .replace(/^ +/, "")
+            .replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/");
+    });
+
+    // Clear local storage (optional, if you use it)
+    localStorage.clear();
+
+    // Mark that we’ve done it, so it doesn’t happen again every reload
+    localStorage.setItem('cookiesCleared', 'true');
+
+    // Reload the page so the new version loads cleanly
+    location.reload();
+}
+
 import { MIN_WINDOW_WIDTH, MIN_WINDOW_HEIGHT } from '../../setup/constants.js';
 
-// Robust zoom detection
+let baseZoom = null;
+
 export function getZoom() {
-    // Method using temporary element for cross-browser reliability
-    const div = document.createElement('div');
-    div.style.width = '100vw';
-    div.style.height = '100vh';
-    div.style.position = 'absolute';
-    div.style.top = '-10000px';
-    document.body.appendChild(div);
-
-    const zoomX = window.innerWidth / div.offsetWidth;
-    const zoomY = window.innerHeight / div.offsetHeight;
-
-    document.body.removeChild(div);
-    return (zoomX + zoomY) / 2;
+    const zoom = window.outerWidth / window.innerWidth;
+    if (baseZoom === null) baseZoom = zoom;
+    return zoom / baseZoom;
 }
+
 
 function drawDimensionChart() {
     const c = document.getElementById("windowsize");
@@ -88,9 +99,9 @@ export function checkWindowDimension() {
     $('#content').show();
     $('#dimension-message').hide();
     $('#zoom-message').hide();
-
+    const alpha = 0;
     // Check window size
-    if (window.innerWidth < MIN_WINDOW_WIDTH || window.innerHeight < MIN_WINDOW_HEIGHT) {
+    if (window.innerWidth < MIN_WINDOW_WIDTH - (MIN_WINDOW_WIDTH * alpha) || window.innerHeight < MIN_WINDOW_HEIGHT - (MIN_WINDOW_HEIGHT * alpha)) {
         drawDimensionChart();
         $('#content').hide();
         $('#dimension-message').show();
