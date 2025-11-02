@@ -1,141 +1,92 @@
 <div class="row mb-5" style="padding: 40px">
     <div class="col">
-        <h2>PART I/ INFORMATION PROVIDED TO THE PARTICIPANTS</h2>
+        <h2>UNIVERSITY OF UTAH INFORMED CONSENT STATEMENT FOR RESEARCH ON:</h2>
+        <h2><u>Design Characterization for Black-and-White Textures in Visualization</u></h2>
 
-        <p><b>Acknowledgements: </b> Your input is essential to our project and the research team would like to thank you for that. Before giving your informed consent, it is important that you understand why the research is being done, what it involves and what your rights and obligations are.</p>
+        <h5>ABOUT THIS RESEARCH</h5>
+        <p>You are being asked to participate in a research study. Scientists do research to answer important questions that might help change or improve the way we do things in the future. This consent document will give you information about the study to help you decide whether you want to participate. Please read this form and ask any questions you have before agreeing to be in the study.</p>
 
-        <h4>PRESENTATION OF THE PROJECT (OR EXPERIMENTATION)</h4>
+        <h5>TAKING PART IN THIS STUDY IS VOLUNTARY</h5>
+        <p>You may choose not to take part in the study or may choose to leave the study at any time. Deciding not to participate or deciding to leave the study later will not result in any penalty and will not affect your relationship with the University of Utah.</p>
 
-        <h5>IDENTIFICATION</h5>
+        <h5>WHY IS THIS STUDY BEING DONE?</h5>
+        <p>You are invited to take part in this project of which the purpose is to explore how to use texture in visual data representations.</p>
 
-        <p>Project manager(s): Tobias Isenberg (Senior Research Scientist, AVIZ project team, Inria Saclay) Other scientists involved:</p>
+        <h5>WHAT WILL HAPPEN DURING THE STUDY?</h5>
+        <p>This experiment will take place online. Participants will be asked to answer a consent form before the experiment begins. After they agree to the consent form, they will answer background questions. Then, they will complete 60 trials of chart-reading tasks after training sessions, and finally rate three charts according to their aesthetics and readability. The whole experiment will take around 10 minutes.</p>
 
-        <ul>
-            <li>Tingying He (PhD student, AVIZ project team, Inria Saclay & University Paris Saclay),</li>
-            <li>Petra Isenberg (Senior Research Scientist, AVIZ project team, Inria Saclay)</li>
-        </ul>
+        <h5>WHAT ARE THE RISKS OF TAKING PART IN THE STUDY?</h5>
+        <p>As an inherent risk of all research there is a potential risk of loss of confidentiality. You may experience mild inconvenience or frustration due to the time required to complete the study.</p>
 
-        <p>Project team and Inria Research Centre: AVIZ project team; Inria Saclay<br />Project name: Design Characterization for Black-and-White Textures in Visualization</p>
+        <h5>WHAT ARE THE POTENTIAL BENEFITS OF TAKING PART IN THE STUDY?</h5>
+        <p>This research is not intended to provide any direct benefit to you. However, you may benefit indirectly by developing an increased understanding of low-color visualization. Low-color visualization is a concise, accurate, and powerful way of visualizing data that has broad application potential. Black-and-white representations can lead to more accessible visualizations and avoid unwanted color association. In addition, visualizations with very few colors can be used in new environments such as knitting, embroidery, or 3D printing. Texture is an effective channel to replace color in low-color visualization. However, texture has a lot of parameters and there is currently a lack of research on how to combine these parameters to make texture suitable for visualization. This study will help us understand how we can best display information and data aesthetically and effectively with texture, and help push the development of low-color visualization further.</p>
 
-        <p>You are invited to take part in this project of which the purpose is to explore how to use texture in visual data representations. The Aviz team is an expert in the field of visualization and the results of these experiments will help us to improve visualization design and research in this field more generally.</p>
+        <h5>WILL I BE PAID FOR PARTICIPATION?</h5>
+        <p>There is no payment for participating in this study.</p>
 
-        <p>The expected benefits of the project are the following: Low-color visualization is a concise, accurate, and powerful way of visualizing data that has broad application potential. Black-and-white representations can lead to more accessible visualizations and avoid unwanted color association. In addition, visualizations with very few colors can be used in new environments such as knitting, embroidery, or 3D printing. Texture is an effective channel to replace color in low-color visualization. However, texture has a lot of parameters and there is currently a lack of research on how to combine these parameters to make texture suitable for visualization. Our project will help us understand how we can best display information and data aesthetically and effectively with texture, and help push the development of low-color visualization further.</p>
+        <h5>WILL IT COST ME ANYTHING TO PARTICIPATE?</h5>
+        <p>There is no cost to you for participating in this study.</p>
 
-        <p>This project has received a favorable opinion from Inria's Operational Committee for the Assessment of legal and ethical risks. For more information click <a href="https://www.inria.fr/en/operational-committee-assesment-legal-and-ethical-risks">here</a>.</p>
+        <h5>HOW WILL MY INFORMATION BE PROTECTED?</h5>
+        <p>We will protect your information and make every effort to keep your personal information confidential, but we cannot guarantee absolute confidentiality.  We will anonymize all responses prior to analysis such that your responses cannot be connected to you in any way. Study responses will be used only for research purposes. No information that could identify you will be shared in publications about the study. Your personal information may be shared outside the research study if required by law. We may need to share your research records with other groups for quality assurance or data analysis. These groups include the University of Utah Institutional Review Board or its designees. Anonymized responses (with no possibility of connecting back to specific individuals or organizations) may be openly shared to increase research transparency and facilitate future research.</p>
 
-        <h4>YOUR PARTICIPATION IN THE PROJECT</h4>
+        <h5>WHOM SHOULD I CALL WITH QUESTIONS OR PROBLEMS?</h5>
+        <p>If you have questions about the study or encounter a problem with the research, contact any of the following researchers: <a href="mailto:andrew.tate@utah.edu">Andrew Tate</a>, <a href="mailto:g.goodman@utah.edu">Gabriella Goodman</a>, <a href="mailto:u1283933@utah.edu">Leena Butt</a>. In the event of an emergency, you may contact <a href="mailto:sameer.patil@utah.edu">Prof. Sameer Patil</a>. Contact the Institutional Review Board (IRB) if you have questions regarding your rights as a research participant. Also, contact the IRB if you have questions, complaints or concerns which you do not feel you can discuss with the investigator. The University of Utah IRB may be reached by phone at (801) 581-3655 or by e-mail at <a href="mailto:irb@hsc.utah.edu">irb@hsc.utah.edu</a>. You may also contact the Research Participant Advocate (RPA) by phone at (801) 581-3803 or by email at <a href="mailto:participant.advocate@hsc.utah.edu">participant.advocate@hsc.utah.edu</a>.</p>
 
-        <h5>Conditions of your participation:</h5>
+        <h5>CAN I WITHDRAW FROM THE STUDY?</h5>
+        <p>While participating in the study, you can freely change your mind and decide to leave the study at any time. If you decide to withdraw, your responses will be safely discarded.</p>
 
-        <h5><u>Participation Requirements</u></h5>
+        <h5>FUTURE USE OF RESEARCH DATA</h5>
+        <p>As part of this study, we would like to keep the information collected during this research so that other researchers may use it in the future in other research projects and/or posted online in open data repositories and/or sites of scientific publishers. When we use the term “data repository,” it refers to the storage of the information that is collected.</p>
 
-        <p>Participants must be fluent English speakers, of legal age (18 years in most countries).</p>
+        <h6><b>What will be kept?</b></h6> 
 
-        <h5><u>Procedure</u></h5>
+        <p>We will keep anonymized responses to the study questionnaire.</p>
 
-        <p>This experiment will take place online. Participants will be asked to answer a consent form before the experiment begins. After they agree to the consent form, they will answer background questions. Then, they will complete 60 trials of chart-reading tasks after training sessions, and finally rate three charts according to their aesthetics and readability. The whole experiment will take around 10 minutes.<br />We will not take photographs or videos.</p>
+        <h6><b>What will my information be used for?</b></h6> 
 
-        <h5><u>Benefits</u></h5>
+        <p>The purpose of collecting and sharing anonymized data from this study is to support transparency and replication of the results and to enable future research in the field. We cannot know the kinds of future research that will be done with the anonymized data, but we hope to learn more about how to use texture in visual data representations.</p>
 
-        <p>This research will contribute to research in low-color visualization design.</p>
+        <h6><b>Who will keep my information?</b></h6> 
 
-        <p>Participants recruited through a crowd-sourcing platform (Prolific) will be compensated. The amount was chosen based on the duration of a pilot study and will translate to 10.2 euros per hour.</p>
+        <p>Your information can be kept by anyone who obtains the anonymized data directly from the researchers or by downloading from an online source where the anonymized data is posted.</p>
 
-        <h5><u>Risks and drawbacks</u></h5>
+        <h6><b>Do I have to allow my information to be saved for future research?</b></h6> 
 
-        <p>There are no known risks or drawbacks associated with this research study.</p>
+        <p>Participation in the study requires you to agree to the data banking of anonymized data. If you do not want your information saved anonymously for future research, you may decline to participate in this study.</p>
 
-        <h5>Voluntary participation in the project</h5>
+        <h6><b>Will my information be personally identifiable?</b></h6> 
 
-        <p>Once you have read and understood the information contained in the "Project Presentation" section, your signature on this form indicates that you agree to participate in the project, and this without any restrictions or external pressure. If you don't have the information that you need to make a decision, you should not hesitate to ask for more information from the contact persons (see below).</p>
+        <p>The information will not have your name or other personal information linked to it. The de-identified information may be shared with researchers at the University of Utah and at other institutions without additional consent from you or your legally authorized representative.</p>
 
-        <h5>Withdrawal from the project at any time</h5>
+        <h6><b>What if I want to withdraw my information from the data repository?</b></h6> 
 
-        <p>You are completely free to end your participation in the project at any time. All you have to do is let the contact persons know (below). You don’t have to provide any reasons for your withdrawal.</p>
+        <p>Because we will not keep your name or other identifying information when we store your data, we cannot link you with any information stored in the data repository. Therefore, you will not be able to have your information removed from the data repository later.</p>
+        
+        <h6><b>Will my information be used for commercial profit?</b></h6> 
 
-        <h5>Following your withdrawal from the project</h5>
+        <p>Information obtained from you in this research may help in the development of a commercial product by the University of Utah or its research partners. There are no plans to provide financial compensation to you should this occur.</p>
 
-        <p>Regarding the data concerning you which may have been collected before you withdraw from the project, the research team may continue to use such data for the time during which the data mentioned below is kept.</p>
+        <h6><b>Will future results or findings be given to me?</b></h6> 
 
-        <p>As we do not collect data allowing us to identify you, requests to exercise rights cannot take place. For any question about the processing of your data in this system, you can contact the DPO:</p>
+        <p>Because your information cannot be linked back to you, the results from future studies cannot be shared with you.</p>
+        
+        <h5>PARTICIPATION REQUIREMENTS</h5>
+        <p>Participants must be fluent English speakers of legal age (18 years or older).</p>
 
-        <ul>
-            <li>Contact our DPO electronically: dpo@inria.fr</li>
-            <li>Contact our DPO by post: The Data Protection Officer Inria, 2004 route des Lucioles, BP 93, 06902 Sophia-Antipolis Cedex</li>
-        </ul>
-
-        <p> </p>
-
-        <h5>Request for information during the project</h5>
-
-        <p>If you have any additional questions about the project or about your rights as a participant in this research, please do not hesitate to get in touch with the contact persons mentioned below.</p>
-
-        <h5>Information concerning the principal results of the research</h5>
-
-        <p>If you would like a written summary about the principal results of this research and their use, please ask the contact persons.</p>
-
-        <p>This form for requesting information and for collecting informed consent is a confidential and sensitive document, and as such it must be given special treatment both in the way that it is kept and archived.</p>
-        <!--                    <p>--><!--                        A copy of the duly signed form intended for the project manager will be kept within the administrative and financial department of the Inria Research Centre concerned for fifteen (15) years before being transferred to the archives department of the Inria Research Centre concerned.--><!--                    </p>-->
-
-        <p>You also certify that you agree your data (age and self-declared gender) be processed by Inria for the purpose of carrying out the study.</p>
-
-        <h3>CONTACT PERSONS</h3>
-
-        <div align="justify" style="max-width: 100%; display: flex; margin-left: auto; margin-right: auto;">
-            <div align="justify" style="max-width: 30%; display: block; margin-left: 0; margin-right: auto;">
-                <p><strong>Tingying He</strong></p>
-
-                <p>PhD Student</p>
-
-                <p><a href="https://www.aviz.fr/Main/HomePage" target="_blank">AVIZ</a> Research Team</p>
-
-                <p>Université Paris-Saclay</p>
-
-                <p><a href="mailto:tingying.he@inria.fr?cc=petra.isenberg@inria.fr,tobias.isenberg@inria.fr&amp;subject=%5BTexture%20Design%5D%20Question%20about%20the%20experiment1">tingying.he@inria.fr</a></p>
-            </div>
-
-            <div align="justify" style="max-width: 30%; display: block; margin-left: 0; margin-right: auto;">
-                <p><strong>Petra Isenberg</strong></p>
-
-                <p>Senior Research Scientist</p>
-
-                <p><a href="https://www.aviz.fr/Main/HomePage" target="_blank">AVIZ</a> Research Team</p>
-
-                <p>Inria Saclay Île-de-France</p>
-
-                <p><a href="mailto:petra.isenberg@inria.fr?cc=tingying.he@inria.fr,tobias.isenberg@inria.fr&amp;subject=%5BTexture%20Design%5D%20Question%20about%20the%20experiment1">petra.isenberg@inria.fr</a></p>
-            </div>
-
-            <div align="justify" style="max-width: 30%; display: block; margin-left: 0; margin-right: auto;">
-                <p><strong><a href="https://tobias.isenberg.cc/" target="_blank">Tobias Isenberg</a></strong></p>
-
-                <p>Senior Research Scientist</p>
-
-                <p><a href="https://www.aviz.fr/Main/HomePage" target="_blank">AVIZ</a> Research Team</p>
-
-                <p>Inria Saclay Île-de-France</p>
-
-                <p><a href="mailto:tobias.isenberg@inria.fr?cc=tingying.he@inria.fr,petra.isenberg@inria.fr&amp;subject=%5BTexture%20Design%5D%20Question%20about%20the%20experiment1">tobias.isenberg@inria.fr</a></p>
-            </div>
-        </div>
     </div>
 </div>
 
 <div class="row">
     <div class="col">
-        <h2>PART II/ COLLECTION OF THE INFORMED CONSENT OF THE PARTICIPANT</h2>
+        <h2>PARTICIPANT'S CONSENT</h2>
 
-        <p>By clicking "Yes, I agree" button below,</p>
+        <p>By clicking the "Yes, I agree" button below:</p>
 
-        <p>I acknowledge that I have read and understood this form for requesting information concerning the project "A Design space for low-color visual data mapping" of which the purpose is to explore how to better use texture in data representations and that I voluntarily agree to participate in this research project and to the collection and processing of my personal data in this context.</p>
+        <p>I acknowledge that in consideration of all the above, I give my consent to participate in this research study.</p>
 
-        <p>I acknowledge that I have been informed that I can terminate my participation in the project at any time without having to give any reason, by simply contacting the contacts mentioned above.</p>
+        <p>I am a fluent English speaker of legal age (18 years or older).</p>
 
-        <p>I acknowledge having been informed about the purpose and conditions of the project, as well as the pros, risks and cons of the project.</p>
-
-        <p>I acknowledge having received clear and precise answers to my questions.</p>
-
-        <p>Finally, I recognize that I have the option of asking additional questions about the project or about my rights, at any time during the project, via the contact persons.</p>
     </div>
 </div>
 
