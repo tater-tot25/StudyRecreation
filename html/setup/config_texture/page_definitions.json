@@ -15,6 +15,14 @@
     "start_page" : true,
     "save_page" : false
   },
+  "commitment_question" : {
+    "id" : "commitment_question",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/commitment_question.php",
+    "disabled" : true,
+    "start_page" : false,
+    "save_page" : false
+  },
   "demographics" : {
     "id" : "demographics",
     "button_text" : "Next",
