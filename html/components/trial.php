@@ -44,7 +44,7 @@
         <div id="explanation_result_<?php echo $id;?>">
             <!--    correct-->
             <div id="explanation_result_correct_<?php echo $id;?>" style="display: none;">
-                <p style="color:##3BB143;"><b>Correct!</b></p>
+                <p style="color:#3BB143;"><b>Correct!</b></p>
             </div>
             <!--    incorrect-->
             <div id="explanation_result_incorrect_<?php echo $id;?>" style="display: none;">
