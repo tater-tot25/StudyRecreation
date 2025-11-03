@@ -13,7 +13,7 @@
         <p>You are invited to take part in this project of which the purpose is to explore how to use texture in visual data representations.</p>
 
         <h5>WHAT WILL HAPPEN DURING THE STUDY?</h5>
-        <p>This experiment will take place online. Participants will be asked to answer a consent form before the experiment begins. After they agree to the consent form, they will answer background questions. Then, they will complete 60 trials of chart-reading tasks after training sessions, and finally rate three charts according to their aesthetics and readability. The whole experiment will take around 10 minutes.</p>
+        <p>This experiment will take place online. Participants will be asked to answer a consent form before the experiment begins. After they agree to the consent form, they will answer a commitment question. Then, they will complete 60 trials of chart-reading tasks after training sessions, and rate three charts according to their aesthetics and readability. Finally, they will conclude the study by answering demographic questions, a commitment verification question, and optionally providing feedback. The whole experiment will take around 10-15 minutes.</p>
 
         <h5>WHAT ARE THE RISKS OF TAKING PART IN THE STUDY?</h5>
         <p>As an inherent risk of all research there is a potential risk of loss of confidentiality. You may experience mild inconvenience or frustration due to the time required to complete the study.</p>
