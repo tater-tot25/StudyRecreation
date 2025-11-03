@@ -302,6 +302,12 @@ hr {
     padding-right: 50px;
 }
 
+.commitment_verification {
+    display: block;
+    width: 300px;
+    padding-right: 50px;
+}
+
 #people {
     /*width: 250px;*/
     display: block;

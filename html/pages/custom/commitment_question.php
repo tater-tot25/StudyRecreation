@@ -34,7 +34,7 @@
                                    class="commitment_question_choice"
                                    value="nopromise"
                                    onclick = "getCommitmentQuestionValue(this)">
-                            <label for="commitment_question_nopromisee">I cannot promise either way</label>
+                            <label for="commitment_question_nopromise">I cannot promise either way</label>
                         </div>
 
                     </div>
