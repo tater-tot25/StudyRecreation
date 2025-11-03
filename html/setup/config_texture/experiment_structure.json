@@ -1,6 +1,5 @@
 [
   "consent",
-  "demographics",
 
   "description_question0",
 
@@ -38,5 +37,6 @@
 
   "description_readability",
   "readability",
+  "demographics",
   "end"
 ]
