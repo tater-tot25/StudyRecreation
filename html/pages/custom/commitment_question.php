@@ -2,6 +2,7 @@
     <div class="row">
         <div class="col">
             <div class="content">
+                <p>Please do not reload, close, or use the Back button during this task.</p>
                 <h2>Commitment Question</h2>
                 <div>
                     <p>We care about the quality of our data. In order for us to get the most accurate measures of your knowledge and opinions, it is important that you thoughtfully provide your best answers to each question in this study.</p>

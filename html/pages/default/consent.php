@@ -13,7 +13,10 @@
         <p>You are invited to take part in this project of which the purpose is to explore how to use texture in visual data representations.</p>
 
         <h5>WHAT WILL HAPPEN DURING THE STUDY?</h5>
-        <p>This experiment will take place online. Participants will be asked to answer a consent form before the experiment begins. After they agree to the consent form, they will answer a commitment question. Then, they will complete 60 trials of chart-reading tasks after training sessions, and rate three charts according to their aesthetics and readability. Finally, they will conclude the study by answering demographic questions, a commitment verification question, and optionally providing feedback. The whole experiment will take around 10-15 minutes.</p>
+        <p>This experiment will take place online and <strong>must</strong> be completed in one sitting. 
+        <strong>Once participants agree to the consent form, they must NOT reload, close the window, or press Back. Doing so will result in lost progress and the participant will be excluded from the experiment.</strong>
+        <p> </p>
+        <p>Participants will be asked to answer a consent form before the experiment begins. After they agree to the consent form, they will answer a commitment question. Then, they will complete 60 trials of chart-reading tasks after training sessions, and rate three charts according to their aesthetics and readability. Finally, they will conclude the study by answering demographic questions, a commitment verification question, and optionally providing feedback. The whole experiment will take around 10-15 minutes.</p>
 
         <h5>WHAT ARE THE RISKS OF TAKING PART IN THE STUDY?</h5>
         <p>As an inherent risk of all research there is a potential risk of loss of confidentiality. You may experience mild inconvenience or frustration due to the time required to complete the study.</p>
@@ -86,6 +89,8 @@
         <p>I acknowledge that in consideration of all the above, I give my consent to participate in this research study.</p>
 
         <p>I am a fluent English speaker of legal age (18 years or older).</p>
+
+        <p><strong>I understand that reloading, closing the window, or pressing Back will lead to exclusion from the experiment.</strong></p>
 
     </div>
 </div>

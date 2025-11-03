@@ -2,6 +2,7 @@
     <div class="row">
         <div class="col">
             <div class="content">
+                <p>Please do not reload, close, or use the Back button during this task.</p>
                 <h2>Demographics</h2>
                 <div>
                     <p>

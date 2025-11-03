@@ -13,7 +13,9 @@ $current_stimulus_index = get_current_stimulus_index($question_index, $texture_i
 ?>
 
 
+<p>Please do not reload, close, or use the Back button during this task.</p>
 <div>Successfully Completed Training: <?php echo $trial_number;?>/3 </div>
+<p> </p>
 <?php
 include 'html/components/trial_training.php'
 ?>

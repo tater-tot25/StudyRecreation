@@ -1,5 +1,6 @@
 <div class="content">
     <div id="thankyou_div_1">
+        <p>Please do not reload, close, or use the Back button during this task.</p>
         <h2>Feedback</h2>
         <p>
             Do you have any comments about the study, for example concerning the clarity of the instructions or technical issues you might have experienced? (optional)

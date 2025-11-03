@@ -57,7 +57,7 @@
       Unfortunately, it seems that you have reloaded this page <strong>after</strong> you accepted the informed consent. We indicated at the beginning of the experiment that reloading after accepting the conditions would lead to <strong>exclusion</strong> from the experiment.
     </p>
     <p>
-      You can close the window now and return the task on the Prolific platform.
+      You can close the window now.
     </p>
   </div>
 

@@ -3,6 +3,7 @@
 $trial_number = $page_number - $first_page_number;
 ?>
 <div id="row">
+    <p>Please do not reload, close, or use the Back button during this task.</p>
     <div class="task-description" id="graph_box" style="height: 500px">
 
         <img style="width:500px" src="html/img/<?php echo $condition;?>_<?php echo $textures_order_for_question1[$trial_number];?>.svg">

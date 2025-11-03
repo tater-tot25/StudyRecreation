@@ -1,5 +1,6 @@
 <div class="row">
     <div class="col">
+        <p>Please do not reload, close, or use the Back button during this task.</p>
         <h2>Training Finished</h2>
         <p>You have finished the training, click the button below to start the real experiment. </p>
     </div>

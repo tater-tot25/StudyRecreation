@@ -1,5 +1,6 @@
 <div class="row">
     <div class="col">
+        <p>Please do not reload, close, or use the Back button during this task.</p>
         <h2>Get Familiar with the Chart</h2>
         <p>In the following section, you will see a chart similar to the one shown in the image below. </p>
         <p>Kindly spend a few moments viewing this chart and acquaint yourself with the connection between the chart's shading patterns and the corresponding vegetables.</p>

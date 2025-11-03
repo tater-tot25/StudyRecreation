@@ -1,4 +1,5 @@
 <div class="row">
+    <p>Please do not reload, close, or use the Back button during this task.</p>
     <div class="col target d-flex flex-column align-items-center">
         <p id="target_left_legend_<?php echo $id;?>" ><img id="target_left_legendImg_<?php echo $id;?>"></p>
         <p style="margin-bottom: 10px"><span id="target_left_<?php echo $id;?>"></span></p>
