@@ -1,5 +1,6 @@
 <div class="row">
     <div class="col">
+        <h1>Part <?php echo $question_index+1?>: <strong><?php echo $questions_order[$question_index]; ?></strong> Question Type</h1>
         <h2>Instructions </h2>
         <p> In this section, you will see a chart that represents vegetables. Your task is to choose which of two  bars represents <strong><?php echo $questions_order[$question_index]; ?></strong> numbers of vegetables.
             <p>We measure both <b>speed</b> and <b>accuracy</b>. </p>
