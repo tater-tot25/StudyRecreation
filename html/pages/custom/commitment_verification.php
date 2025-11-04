@@ -3,7 +3,6 @@
         <div class="col">
             <div class="content">
                 <p>Please do not reload, close, or use the Back button during this task.</p>
-                <h2>Commitment Verification</h2>
                 <div>
                     <p><b>Did you answer all questions in the study according to the provided instructions?</b></p>
                     <p>Please answer honestly. Your answer has NO consequences for you or the extra credit you will receive if taking this study for extra credit.</p>
