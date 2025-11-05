@@ -213,10 +213,58 @@
                                   style="width:300px; text-align: center;" required autofocus=""></textarea>
                     </div>
                 </div>
+                <div>
+                    <p>
+                        <b>4. Please select the option 'Bar' for this question</b>
+                    </p>
+                    <div>
+                        <div>
+                            <input type="radio"
+                                   id="pie"
+                                   name="attention_check"
+                                   class="check_choice"
+                                   value="Pie"
+                                   onclick = "getCheckValue(this)">
+                            <label for="pie">Pie</label>
+                        </div>
+
+                        <div>
+                            <input type="radio"
+                                   id="line"
+                                   name="attention_check"
+                                   class="check_choice"
+                                   value="Line"
+                                   onclick = "getCheckValue(this)">
+                            <label for="line">Line</label>
+                        </div>
+
+                       <div>
+                            <input type="radio"
+                                   id="bar"
+                                   name="attention_check"
+                                   class="check_choice"
+                                   value="Bar"
+                                   onclick = "getCheckValue(this)">
+                            <label for="bar">Bar</label>
+                        </div>
+
+                        <div>
+                            <input type="radio"
+                                   id="scatter"
+                                   name="attention_check"
+                                   class="check_choice"
+                                   value="Scatter"
+                                   onclick = "getCheckValue(this)">
+                            <label for="scatter">Scatter</label>
+                        </div>
+
+                    </div>
+
+                </div>
                 <p> </p>
                 <div>
                     <p>
-                        <b>4. What is your age?</b>
+                        <b>5. What is your age?</b>
                     </p>
                     <div>
                         <div>
@@ -265,7 +313,7 @@
                 <p> </p>
                 <div>
                     <p>
-                        <b>5. How would you rate your English fluency?</b>
+                        <b>6. How would you rate your English fluency?</b>
                     </p>
                     <div>
                         <div>
@@ -344,13 +392,16 @@
     let fluency_answer = -1
     let fluency_answered = false
 
+    let check_answer = -1
+    let check_answered = false
+
     // Check if the gender question be answered
     $('.education_choice').on('input', function() {
         // education_answered = true;
         education_answer = $(this).val();
     });
 
-     $('.gender_choice').on('input', function() {
+    $('.gender_choice').on('input', function() {
         gender_answer = $(this).val();
     });
 
@@ -364,6 +415,10 @@
 
     $('.fluency_choice').on('input', function() {
         fluency_answer = $(this).val();
+    });
+
+    $('.check_choice').on('input', function() {
+        check_answer = $(this).val();
     });
 
 </script>
@@ -475,6 +530,18 @@
         if (fluency_answered) $("#btn_<?php echo $id;?>").prop('disabled', false);
     }
 
+    function getCheckValue(theRadio){
+        let value  = theRadio.value;
+        console.log('check value:'+value)
+        
+        check_answered = true;
+        check_answer = value;
+        
+        console.log("check_answered: "+ check_answered);
+        console.log("check_answer: "+ check_answer);
+
+        if (check_answered) $("#btn_<?php echo $id;?>").prop('disabled', false);
+    }
 
     $('body').on('show', function(e, type){
         // console.log("show");
@@ -495,6 +562,7 @@
             measurements['ethnicity'] = ethnicity_answer;
             measurements['age'] = age_answer;
             measurements['fluency'] = fluency_answer;
+            measurements['attention_check'] = check_answer;
             //console.log("logging education_answer: "+ measurements['education']);
         }
     });
