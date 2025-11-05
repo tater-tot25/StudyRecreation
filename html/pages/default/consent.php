@@ -1,5 +1,7 @@
 <div class="row mb-5" style="padding: 40px">
     <div class="col">
+        <img src="html/images/logo.png" style="display:block; margin:0 auto;" alt="uofulogo" width="300">
+
         <h2>UNIVERSITY OF UTAH INFORMED CONSENT STATEMENT FOR RESEARCH ON:</h2>
         <h2><u>Design Characterization for Black-and-White Textures in Visualization</u></h2>
 
@@ -91,6 +93,16 @@
         <p>I am a fluent English speaker of legal age (18 years or older).</p>
 
         <p><strong>I understand that reloading, closing the window, or pressing Back will lead to exclusion from the experiment.</strong></p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col">
+        <button 
+            class="btn btn-danger" 
+            onclick="window.location.href='html/pages/custom/no_consent.php'">
+            No, I do not agree
+        </button>
 
     </div>
 </div>
