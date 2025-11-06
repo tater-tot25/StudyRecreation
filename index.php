@@ -63,6 +63,8 @@
     <canvas id="windowsize" width="350px" height="200px"></canvas>
     <p>It may be happening because your browser window is too small or the page is zoomed in.</p>
     <p>Please resize your window until this message disappears or zoom out the page.</p>
+    <p>Alternatively, if you are not on a desktop or laptop device, and instead on a mobile device, please close this
+    survey and reopen it there!</p>
   </div>
   <main class="container" id="content">
     <div class="row justify-content-center">
