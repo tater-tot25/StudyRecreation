@@ -5,6 +5,8 @@
         <h2>UNIVERSITY OF UTAH INFORMED CONSENT STATEMENT FOR RESEARCH ON:</h2>
         <h2><u>Design Characterization for Black-and-White Textures in Visualization</u></h2>
 
+        <h4 style="color: red;"><strong>IMPORTANT: This study can only be completed on a desktop/laptop!</strong><h4>
+
         <h5>ABOUT THIS RESEARCH</h5>
         <p>You are being asked to participate in a research study. Scientists do research to answer important questions that might help change or improve the way we do things in the future. This consent document will give you information about the study to help you decide whether you want to participate. Please read this form and ask any questions you have before agreeing to be in the study.</p>
 
