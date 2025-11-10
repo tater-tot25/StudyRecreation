@@ -215,47 +215,77 @@
                 </div>
                 <div>
                     <p>
-                        <b>4. Please select the option 'Bar' for this question</b>
+                        <b>4. Which of these is not a fruit?</b>
                     </p>
                     <div>
                         <div>
                             <input type="radio"
-                                   id="pie"
+                                   id="banana"
                                    name="attention_check"
                                    class="check_choice"
-                                   value="Pie"
+                                   value="Banana"
                                    onclick = "getCheckValue(this)">
-                            <label for="pie">Pie</label>
+                            <label for="banana">Banana</label>
                         </div>
 
                         <div>
                             <input type="radio"
-                                   id="line"
+                                   id="apple"
                                    name="attention_check"
                                    class="check_choice"
-                                   value="Line"
+                                   value="Apple"
                                    onclick = "getCheckValue(this)">
-                            <label for="line">Line</label>
+                            <label for="apple">Apple</label>
                         </div>
 
                        <div>
                             <input type="radio"
-                                   id="bar"
+                                   id="orange"
                                    name="attention_check"
                                    class="check_choice"
-                                   value="Bar"
+                                   value="Orange"
                                    onclick = "getCheckValue(this)">
-                            <label for="bar">Bar</label>
+                            <label for="orange">Orange</label>
                         </div>
 
                         <div>
                             <input type="radio"
-                                   id="scatter"
+                                   id="kiwi"
                                    name="attention_check"
                                    class="check_choice"
-                                   value="Scatter"
+                                   value="Kiwi"
                                    onclick = "getCheckValue(this)">
-                            <label for="scatter">Scatter</label>
+                            <label for="kiwi">Kiwi</label>
+                        </div>
+
+                        <div>
+                            <input type="radio"
+                                   id="grapes"
+                                   name="attention_check"
+                                   class="check_choice"
+                                   value="Grapes"
+                                   onclick = "getCheckValue(this)">
+                            <label for="grapes">Grapes</label>
+                        </div>
+
+                        <div>
+                            <input type="radio"
+                                   id="broccoli"
+                                   name="attention_check"
+                                   class="check_choice"
+                                   value="Broccoli"
+                                   onclick = "getCheckValue(this)">
+                            <label for="broccoli">Broccoli</label>
+                        </div>
+
+                          <div>
+                            <input type="radio"
+                                   id="mango"
+                                   name="attention_check"
+                                   class="check_choice"
+                                   value="Mango"
+                                   onclick = "getCheckValue(this)">
+                            <label for="mango">Mango</label>
                         </div>
 
                     </div>
