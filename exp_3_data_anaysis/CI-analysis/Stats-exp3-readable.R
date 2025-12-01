@@ -2,31 +2,31 @@ library(plyr)
 library(dplyr)
 library(tidyr)
 
-source("CI-analysis/CI-Functions-Bonferroni.R")
+source("exp_3_data_anaysis/CI-analysis/CI-Functions-Bonferroni.R")
 
 
-mydata <- read.table("CI-analysis/exp-data/readable.csv", header=T, sep=",")
-filename_analysis <- "CI-analysis/results/"
+mydata <- read.table("exp_3_data_anaysis/CI-analysis/exp-data/readable.csv", header=T, sep=",")
+filename_analysis <- "exp_3_data_anaysis/CI-analysis/results/"
 
 ##Need to refactor the data a bit
 
 #This was a between-subjects experiment
 bardf <- mydata %>% select(matches("bar|participant_id"))
-bardf <- bardf %>% drop_na(readable_bar_geo)
+bardf <- bardf %>% drop_na(previs_bar_geo)
 bardf <- bardf %>% 
   rename(
-    geometric = readable_bar_geo,
-    iconic = readable_bar_icon,
-    unicolor = readable_bar_color
+    geometric = previs_bar_geo,
+    iconic = previs_bar_icon,
+    unicolor = previs_bar_color
   )
 
 piedf <- mydata %>% select(matches("pie|participant_id"))
-piedf <- piedf %>% drop_na(readable_pie_geo)
+piedf <- piedf %>% drop_na(previs_pie_geo)
 piedf <- piedf %>% 
   rename(
-    geometric = readable_pie_geo,
-    iconic = readable_pie_icon,
-    unicolor = readable_pie_color
+    geometric = previs_pie_geo,
+    iconic = previs_pie_icon,
+    unicolor = previs_pie_color
   )
 
 
@@ -73,7 +73,7 @@ colnames(bardatatoprint) <- c("technique", "mean_time", "lowerBound_CI", "upperB
 gbar <- barChart(bardatatoprint,barData$name ,nbTechs = 3, ymin = 1, ymax = 7, gray_line_interval = 1, "", "","") #Avg. Thresholds. Error Bars, Bootstrap 95% CIs
 print(gbar)
 
-fname <- "results/exp3_readable_bar.pdf"
+fname <- "exp_3_data_anaysis/results/exp3_readable_bar.pdf"
 ggsave(filename = fname, plot=gbar, width = 8, height= 1, device= pdf(), units = "in")
 dev.off()
 
@@ -87,7 +87,7 @@ piedatatoprint <- data.frame(factor(pieData$name),pieData$pointEstimate, pieData
 colnames(piedatatoprint) <- c("technique", "mean_time", "lowerBound_CI", "upperBound_CI ")
 gpie <- barChart(piedatatoprint,pieData$name ,nbTechs = 3, ymin = 1, ymax = 7, gray_line_interval = 1,"", "","") #Avg. Thresholds. Error Bars, Bootstrap 95% CIs
 print(gpie)
-fname <- "results/exp3_readable_pie.pdf"
+fname <- "exp_3_data_anaysis/results/exp3_readable_pie.pdf"
 ggsave(filename = fname, plot=gpie, width = 8, height= 1, device= pdf(), units = "in")
 dev.off()
 
@@ -133,7 +133,7 @@ colnames(datatoprintbar) <- c("technique", "mean_time", "lowerBound_CI", "upperB
 g <- barChart_corr(datatoprintbar,analysisBar$name ,nbTechs = 3, ymin = -3, ymax = 3,  gray_line_interval = 1,"", "","") #Avg. Thresholds. Error Bars, Bootstrap 95% CIs
 print(g)
 
-fname <- "results/exp3_readable_diff_bar.pdf"
+fname <- "exp_3_data_anaysis/results/exp3_readable_diff_bar.pdf"
 ggsave(filename = fname, plot=g, width = 8, height= 1, device= pdf(), units = "in")
 dev.off()
 
@@ -146,7 +146,7 @@ colnames(datatoprintpie) <- c("technique", "mean_time", "lowerBound_CI", "upperB
 g <- barChart_corr(datatoprintpie,analysisPie$name ,nbTechs = 3, ymin = -3, ymax = 3,  gray_line_interval = 1, "", "","") #Avg. Thresholds. Error Bars, Bootstrap 95% CIs
 print(g)
 
-fname <- "results/exp3_readable_diff_pie.pdf"
+fname <- "exp_3_data_anaysis/results/exp3_readable_diff_pie.pdf"
 ggsave(filename = fname, plot=g, width = 8, height= 1, device= pdf(), units = "in")
 dev.off()
 
