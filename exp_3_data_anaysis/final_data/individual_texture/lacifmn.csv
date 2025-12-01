@@ -1,0 +1,2 @@
+participant_id,answer_accuracy,elapsed_time,trial_type,condition,current_stimulus_index,target_left,target_right,correct_answer,key_pressed,questions_order,question_index,question_condition,textures_order_for_question,texture_index,texture_condition,trial_number
+lacifmn,-1,5000,training,bar,19,carrot,eggplant,eggplant,none,"fewer, more",0,FEWER,"geo, icon, color",0,geo,0
