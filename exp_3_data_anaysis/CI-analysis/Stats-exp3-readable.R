@@ -73,7 +73,7 @@ colnames(bardatatoprint) <- c("technique", "mean_time", "lowerBound_CI", "upperB
 gbar <- barChart(bardatatoprint,barData$name ,nbTechs = 3, ymin = 1, ymax = 7, gray_line_interval = 1, "", "","") #Avg. Thresholds. Error Bars, Bootstrap 95% CIs
 print(gbar)
 
-fname <- "exp_3_data_anaysis/results/exp3_readable_bar.pdf"
+fname <- "exp_3_data_anaysis/results/exp3_readable_bar.jpg"
 ggsave(filename = fname, plot=gbar, width = 8, height= 1, device= pdf(), units = "in")
 dev.off()
 
@@ -87,7 +87,7 @@ piedatatoprint <- data.frame(factor(pieData$name),pieData$pointEstimate, pieData
 colnames(piedatatoprint) <- c("technique", "mean_time", "lowerBound_CI", "upperBound_CI ")
 gpie <- barChart(piedatatoprint,pieData$name ,nbTechs = 3, ymin = 1, ymax = 7, gray_line_interval = 1,"", "","") #Avg. Thresholds. Error Bars, Bootstrap 95% CIs
 print(gpie)
-fname <- "exp_3_data_anaysis/results/exp3_readable_pie.pdf"
+fname <- "exp_3_data_anaysis/results/exp3_readable_pie.jpg"
 ggsave(filename = fname, plot=gpie, width = 8, height= 1, device= pdf(), units = "in")
 dev.off()
 
@@ -133,7 +133,7 @@ colnames(datatoprintbar) <- c("technique", "mean_time", "lowerBound_CI", "upperB
 g <- barChart_corr(datatoprintbar,analysisBar$name ,nbTechs = 3, ymin = -3, ymax = 3,  gray_line_interval = 1,"", "","") #Avg. Thresholds. Error Bars, Bootstrap 95% CIs
 print(g)
 
-fname <- "exp_3_data_anaysis/results/exp3_readable_diff_bar.pdf"
+fname <- "exp_3_data_anaysis/results/exp3_readable_diff_bar.jpg"
 ggsave(filename = fname, plot=g, width = 8, height= 1, device= pdf(), units = "in")
 dev.off()
 
@@ -146,7 +146,7 @@ colnames(datatoprintpie) <- c("technique", "mean_time", "lowerBound_CI", "upperB
 g <- barChart_corr(datatoprintpie,analysisPie$name ,nbTechs = 3, ymin = -3, ymax = 3,  gray_line_interval = 1, "", "","") #Avg. Thresholds. Error Bars, Bootstrap 95% CIs
 print(g)
 
-fname <- "exp_3_data_anaysis/results/exp3_readable_diff_pie.pdf"
+fname <- "exp_3_data_anaysis/results/exp3_readable_diff_pie.jpg"
 ggsave(filename = fname, plot=g, width = 8, height= 1, device= pdf(), units = "in")
 dev.off()
 
